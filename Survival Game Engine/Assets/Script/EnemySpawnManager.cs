@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemySpawnManager : MonoBehaviour {
-	
-	static int _livingZombies = 0;
+static int _livingZombies = 0;
 	static public void onEnemyDeath(){
 		--_livingZombies;
 	}
